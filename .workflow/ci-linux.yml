@@ -10,7 +10,7 @@ triggers:
   push:
     branches:
       precise:
-        - main
+        - test
 
 variables:
   XMAKE_MAIN_REPO: 'https://gitee.com/XmacsLabs/xmake-repo.git'
