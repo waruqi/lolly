@@ -1,4 +1,4 @@
-
+ 
 /******************************************************************************
 * MODULE     : block.cpp
 * DESCRIPTION: A block of Scheme data
