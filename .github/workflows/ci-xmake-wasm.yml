@@ -2,12 +2,11 @@ name: Build on wasm
 
 on:
   push:
-    branches: [ main ]
+    branches: [ test ]
     paths:
       - 'Kernel/**'
       - 'System/**'
       - 'tests/**'
-      - '.github/workflows/ci-xmake-wasm.yml'
       - 'xmake.lua' 
   pull_request:
     branches: [ main ]
