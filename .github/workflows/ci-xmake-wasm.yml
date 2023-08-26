@@ -2,7 +2,7 @@ name: Build on wasm
 
 on:
   push:
-    branches: [ test ]
+    branches: [ da/11_3/xmake_dev ]
   workflow_dispatch:
 
 jobs:
